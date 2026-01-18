@@ -1,9 +1,9 @@
 import styles from './Button.module.css'
 
-const Button = () => {
+const Button = ({onClick}) => {
     return(
         <>
-            <button>Лайк! </button>
+            <button onClick={onClick}>Лайк! </button>
         </>
     )
 }
